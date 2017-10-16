@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">陪聊机器人</string>
+    <string name="app_name">排忧解闷</string>
     <string name="send">发送</string>
     <string name="robot">陪聊机器人</string>
     <string name="username">用户名</string>
@@ -8,6 +8,12 @@
     <string name="go_register">没有账号？前往注册</string>
     <string name="go_login">已有账号？直接登陆</string>
     <string name="register">注册</string>
-    <item name="visible" type="id"/>
-    <item name="masked" type="id"/>
+    <string name="forget">忘记密码</string>
+    <string name="introduce">陪聊机器人是由android开发者小航制作的一款简单的APP，目前仍在不断完善，谢谢各位使用，欢迎各位朋友提出建议，有什么好的建议可以发到我的邮箱，jesseyzhang@126.com</string>
+    <string name="fun_story">幽默段子</string>
+    <string name="fun_photo">搞笑图片</string>
+    <string name="menu_scary">恐怖故事</string>
+    <string name="fun_comic">奇闻轶事</string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
 </resources>

@@ -1,5 +1,6 @@
 package com.example.myrobot.db;
 
+import org.litepal.annotation.Column;
 import org.litepal.crud.DataSupport;
 
 /**
@@ -9,7 +10,11 @@ import org.litepal.crud.DataSupport;
 public class User extends DataSupport {
 
     private int id;
+
+    @Column(unique = true,nullable = false)
     private String userName;
+
+    @Column(nullable = false)
     private String passWord;
 
     public int getId() {

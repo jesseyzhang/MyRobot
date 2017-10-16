@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/story"
+            android:title="@string/fun_story"
+            android:icon="@drawable/menu_joy" />
+        <item
+            android:id="@+id/photo"
+            android:title="@string/fun_photo"
+            android:icon="@drawable/menu_photo"/>
+        <item
+            android:id="@+id/scary"
+            android:title="@string/menu_scary"
+            android:icon="@drawable/menu_scary"/>
+        <item
+            android:id="@+id/comic"
+            android:title="@string/fun_comic"
+            android:icon="@drawable/menu_video"/>
+    </group>
+</menu>
